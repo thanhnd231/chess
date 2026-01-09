@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chess Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>♟ Chess Game</h1>
+
+  <div class="controls">
+    <button id="pvpBtn">Player vs Player</button>
+    <button id="aiBtn">Player vs AI</button>
+    <button id="undoBtn">Undo</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <div id="status"></div>
+  <div id="board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
